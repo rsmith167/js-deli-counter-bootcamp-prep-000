@@ -8,7 +8,17 @@ function nowServing(katzDeliLine){
   {
     var firstPerson = katzDeliLine[0]
     katzDeliLine.unshift()
-    return `Currently serving ${firstPerson}`
+    return `Currently serving ${firstPerson}.`
   }else{return "There is nobody waiting to be served!"}
   
+}
+function currentLine(katzDeliLine){
+  
+  if(katzDeliLine.length === 0){
+    return "The line is currently empty."
+  }else{
+    for( var i = katzDeliLine.length; i > 0; i--){
+      
+    }
+  }
 }
