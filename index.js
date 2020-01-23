@@ -22,7 +22,7 @@ function currentLine(katzDeliLine){
     for( var i = katzDeliLine.length; i > 1; i--){
       currentLineString = currentLineString + (` ${j-i + 1}. ${katzDeliLine[j-i]},`)
     }
-    currentLineString = currentLineString + (` ${j-1}. ${katzDeliLine[j-1]}`)
+    currentLineString = currentLineString + (` ${j}. ${katzDeliLine[j-1]}`)
     return currentLineString
   }
 }
